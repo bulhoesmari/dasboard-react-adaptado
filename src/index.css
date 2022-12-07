@@ -1,0 +1,35 @@
+@import url(./css/login.css);
+
+@import url(./css/global.css);
+
+@import url(./css/dashboard.css);
+
+@import url(./css/variaveis.css);
+
+@import url(./css/recent-orders.css);
+
+@import url(./css/media-queries.css);
+
+@import url(./css/lateral.css);
+
+#body {
+    display: grid;
+    grid-template-areas: 
+        "sidebar outlet rightside"
+        "sidebar outlet rightside"
+        "sidebar outlet rightside"
+    ;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+
+#outlet {
+    grid-area: outlet;
+}
+
+#rightside {
+    grid-area: rightside;
+}

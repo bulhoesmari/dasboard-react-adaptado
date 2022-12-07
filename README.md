@@ -1,0 +1,1 @@
+"# dasboard-react-adaptado" 
